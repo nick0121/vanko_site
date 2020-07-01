@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'pages/css/main.css' %}">
     <title>
         {% block title %}
 
@@ -16,6 +17,8 @@
     {% block content %}
 
     {% endblock content %}
+
+    <script src="{% static 'pages/js/main.js' %}"></script>
 </body>
 
 </html>
