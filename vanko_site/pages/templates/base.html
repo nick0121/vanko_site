@@ -14,9 +14,13 @@
 </head>
 
 <body>
+    {% include "partials/_header.html" %}
+
     {% block content %}
 
     {% endblock content %}
+
+    {% include "partials/_footer.html" %}
 
     <script src="{% static 'pages/js/main.js' %}"></script>
 </body>
