@@ -45,3 +45,32 @@ transform: rotate(-45deg) translate(-9px, 6px);
 -webkit-transform: rotate(45deg) translate(-8px, -8px);
 transform: rotate(45deg) translate(-8px, -8px);
 }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+    background-color: #05668D;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    top: -2px;
+    z-index: -1;
+}
+
+nav ul li {
+    padding: 5px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+nav ul li:last-child {
+    border-bottom: 1px solid #05668d;
+}
+
+
+
+nav li a {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}

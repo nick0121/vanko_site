@@ -1,6 +1,45 @@
 @import url('header.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+}
 
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Spacers */
+.spacer {
+    height: 200px;
+    width: 100%;
+}
+
+.spacer-small {
+    width: 100%;
+    height: 100px;
+}
+
+.spacer-xs {
+    width: 100%;
+    height: 50px;
 }
