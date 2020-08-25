@@ -2,25 +2,25 @@
 <header>
     <div class="header-wrapper">
         <div class="logo">
-            <a href="{% url 'index' %}"><img src="{% static 'pages/img/Vanko_logo.png' %}" alt=""
-                    style="width: 200px;"></a>
+            <a href="{% url 'index' %}"><img src="{% static 'pages/img/Vanko_logo.png' %}" alt=""></a>
         </div>
 
         <!--hamburger nav-->
-        <div class="container" onclick="hamburgerToggle(this)">
+        <div class="ham-container" onclick="hamburgerToggle(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
 
-        <nav id="dropMenu" class="retracted">
-            <ul>
-                <li><a href="{% url 'about' %}">About Us</a></li>
-                <li><a href="#">what we do</a></li>
-                <li><a href="#">how to work with us</a></li>
-                <li><a href="{% url 'contact' %}">get in touch</a></li>
-            </ul>
-        </nav>
+
     </div>
+    <nav id="dropMenu" class="retracted">
+        <ul>
+            <li><a href="{% url 'about' %}">About Us</a></li>
+            <li><a href="#">what we do</a></li>
+            <li><a href="#">how to work with us</a></li>
+            <li><a href="{% url 'contact' %}">get in touch</a></li>
+        </ul>
+    </nav>
 
 </header>
